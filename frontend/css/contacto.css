@@ -1,0 +1,147 @@
+/* Importación de fuentes de google fonts */
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+/* Aspecto del formulario */
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Inputs */
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #580d119f;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+/* Caja de texto */
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #580d119f;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+/* Botones */
+button {
+  padding: 10px;
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: white;
+  border-color: #580d119f;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+button p {
+  color: white;
+}
+
+span {
+  color: #ab4493;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+/* Título de foromulario */
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: black;
+}
+
+/* Texto dirección de foromulario */
+h3 {
+  font-size: 20px;
+  padding-bottom: 30px;
+  color: #580d119f;
+}
+
+p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+/* Cambio color de input seleccionado */
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+@font-face {
+  font-family: "FIFA Welcome";
+  src: url("img/fonts/fifawelcome.ttf");
+}
+
+body {
+  background: radial-gradient(at top, #E02F39, #520004);
+}
+
+/* Logo */
+.logo {
+  z-index: 0;
+}
+
+/* Menú */
+.navbar {
+  z-index: 1;
+  position: static;
+  font-family: "FIFA Welcome";
+  font-size: 18px
+}
+
+/* Menú 2 */
+.bg-light {
+  background: linear-gradient(#E02F39, #520004);
+  border-radius: 25px;
+}
+
+/* Elementos del menú */
+.nav-item {
+  padding: 0px 20px;
+}

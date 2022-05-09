@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es" class="h-100">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BASKET REVOLUTION</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/contacto.css">
+  <script type="text/javascript" src="/contacto.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-8 text-center">
+        <img src="img/logo.png" alt="" class="mx-auto d-block logo">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light mt-n5">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">TIENDA<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="sobre nosotros.html" class="nav-link" href="#">NOSOTROS</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="galeria.html" class="nav-link" href="#">GALERIA</a>
+              </li>
+              <li class="nav-item">
+                <a href="contacto.html" class="nav-link" href="#">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+        <!-- Formulario de contacto en html y css -->
+
+
+
+
+
+        <div class="contact_form">
+
+          <div class="formulario">
+            <h1>Formulario de contacto</h1>
+            <h3>Nuestra dirección postal es: <br>
+              Av. de Filipinas, 46 <br>
+              28003 Madrid
+            </h3>
+
+
+            <form action="submeter-formulario.php" method="post">
+
+              <label for="nombre" class="colocar_nombre">Nombre
+                <span class="obligatorio">*</span>
+              </label>
+              <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                placeholder="Escribe tu nombre">
+
+              <label for="telefono" class="colocar_telefono">Teléfono
+              </label>
+              <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+
+              <label for="email" class="colocar_email">Email
+                <span class="obligatorio">*</span>
+              </label>
+              <input type="email" name="introducir_email" id="email" required="obligatorio"
+                placeholder="Escribe tu Email">
+
+              <label for="asunto" class="colocar_asunto">Asunto
+                <span class="obligatorio">*</span>
+              </label>
+              <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                placeholder="Escribe un asunto">
+
+              <label for="mensaje" class="colocar_mensaje">Mensaje
+                <span class="obligatorio">*</span>
+              </label>
+
+              <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                placeholder="Deja aquí tu comentario..."></textarea>
+
+              <button class="boton_enviar" type="submit" name="enviar_formulario" id="enviar">
+                <p>ENVIAR</p>
+              </button>
+
+              <p class="aviso">
+                <span class="obligatorio"> * </span>los campos son obligatorios.
+              </p>
+
+
+            </form>
+
+
+
+          </div>
+        </div>
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BASKET REVOLUTION</title>
+
+  <!--LEE CÓDIGO CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/app.css">
+
+  <!--LEE CÓDIGO JAVASCRIPT-->
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+  <!--MENÚ SUPERIOR-->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-8 text-center">
+        <img src="img/logo.png" alt="" class="mx-auto d-block logo">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light mt-n5">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="elemento_menu active">
+                <a class="nav-link" href="#">TIENDA<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="elemento_menu">
+                <a href="sobre nosotros.html" class="nav-link" href="#">NOSOTROS</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="elemento_menu">
+                <a href="galeria.html" class="nav-link" href="#">GALERIA</a>
+              </li>
+              <li class="elemento_menu">
+                <a href="contacto.html" class="nav-link" href="#">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="bloque2">
+    <button id="carrito" class="boton_carrito" onclick="pagar()">CARRO VACÍO</button>
+  </div>
+
+  <!--JORDAN-->
+  <div class="bloque">
+    <div class="bloque2">
+      <img src="img/jordan.png" />
+    </div>
+    <div id="contenido_zapas" class="contenido_zapas">
+    </div>
+  </div>
+
+  <!--NIKE-->
+  <div class="bloque">
+    <div class="bloque2">
+      <img src="img/nikelogo.png" />
+    </div>
+    <div id="contenido_zapas" class="contenido_zapas">
+    </div>
+  </div>
+
+  <!--ADIDAS-->
+  <div class="bloque">
+    <div class="bloque2">
+      <img src="img/adidas.png" />
+    </div>
+    <div id="contenido_zapas" class="contenido_zapas">
+    </div>
+  </div>
+
+  <!--UNDER ARMOUR-->
+  <div class="bloque">
+    <div class="bloque2">
+      <img src="img/under_armour.png" />
+    </div>
+    <div id="contenido_zapas" class="contenido_zapas">
+    </div>
+  </div>
+</body>
+
+</html>
